@@ -1,0 +1,117 @@
+body {
+    background-color: #222222;
+    margin: 0;
+    text-align: center;
+}
+
+#timer {
+    color: white;
+    width: 375px;
+    margin: 15vh auto 5vh;
+    font-size: 107px;
+    padding: 0.45rem;
+   
+}
+
+#buttons-container {
+    width: 400px;
+    margin: 8vh auto;
+}
+
+#start-btn, #lap-btn, #reset-btn, #pause-btn {
+    padding: 10px;  
+    width: 100px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+#reset-btn, #pause-btn {
+    margin-bottom: 5rem;
+}
+
+#reset-btn {
+    background-color: red;
+    border: none;
+    color: pink;
+    margin-right: 1rem;
+}
+
+#lap-btn {
+    opacity: 0.15;
+    border: none;
+    margin-right: 1rem;
+    background-color:  skyblue;
+    color: navy;
+}
+
+#start-btn {
+    background-color: #33CC33;
+    border: none;
+    color: darkgreen;
+}
+
+#pause-btn {
+    background-color: gold; 
+    border: none;
+    color: black;
+}
+
+#start-btn:hover {
+    background-color: #33CC66;
+    color: black;
+}
+
+#start-btn:active {
+    opacity: 0.85;
+}
+
+#reset-btn:hover {
+    background-color: #FF0033;
+    color: white;
+}
+
+#restart-btn:active {
+    opacity: 0.85;
+}
+
+#pause-btn:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#pause-btn:active {
+    opacity: 0.85;
+}
+
+#lap-btn:hover {
+    background-color: cyan;
+    color: blue;
+}
+
+#lap-btn:active {
+    opacity: 0.85;
+}
+
+#lap-tracker {    
+    color: white;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+hr {
+    width: 400px;
+    margin: 2vh auto 0;
+}
+
+
+#lap-list {
+    margin: 1rem auto;
+    width: 350px;
+    max-width: 350px;
+    height: 400px;
+    color: white;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap">
+        <title>StopWatch Application</title>
+    </head>
+    <body>
+        <div id="timer">00:00:00</div>
+        <div class="buttons-container">
+                <span><button id="lap-btn" onclick="lap()" disabled>Lap</button>
+                <button id="start-btn" onclick="start()">Start</button></span>
+                <div class="buttons-container">
+                    <span><button id="reset-btn" onclick="reset()">Reset</button>
+                    <button id="pause-btn" onclick="pause()">Pause</button></span>
+                </div>
+
+                
+        </div>
+        <div id="lap-tracker">Lap Tracker</div>
+        <hr/>
+        <div id="lap-list"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
